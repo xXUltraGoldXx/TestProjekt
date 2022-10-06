@@ -1,4 +1,5 @@
 <?php
+$plugin = new PluginLoader\plugin();
 $plugin->AddHook('navbar_li','NavForm');
 $plugin->AddHook('header_info','login_css');
 $plugin->AddHook('top_body','auth');

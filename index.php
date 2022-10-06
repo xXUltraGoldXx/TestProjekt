@@ -4,6 +4,9 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 include 'assets/core/pluginLoader.php';
 
+$plugin = new PluginLoader\plugin();
+$plugin->initialisieren();
+
 $htmlpro = "85";
 $csspro = "40";
 $phppro = "50";
