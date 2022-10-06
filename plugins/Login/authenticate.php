@@ -1,8 +1,4 @@
 <?php
-$DATABASE_HOST = '10.35.232.110:3306';
-$DATABASE_USER = 'k184914_website';
-$DATABASE_PASS = '5Ug2!la64';
-$DATABASE_NAME = 'k184914_ultragold';
 $mysqli = new mysqli($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
   if ( isset($_POST['username'], $_POST['password']) ) 
   {
